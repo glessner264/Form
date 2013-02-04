@@ -1,0 +1,504 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Form</title><!--[if lt IE 9]>
+<script src="dist/html5shiv.js"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="js/script.js"></script>
+
+</head>
+
+
+<body>
+<h1>Video Game Questionnaire</h1>
+
+<form>
+
+
+<p>Select Gender</p>
+<select name="user_gender" id="gender">
+  <option value></option>
+  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+<select>
+
+
+
+
+
+
+
+
+
+
+<section id="question1">
+<p>What first got you into gaming?</p>
+<textarea name="user_comments" id="user_comments1"></textarea>
+</section>
+<section id="question2">
+<p>
+<label for="question2">Do you get treated differently online?</label>
+</p>
+<ul>
+<li><input type="radio" value="yes" name="answer_yes" id="user_yes" ><label for "user_yes">Yes</label></li>
+
+<li><input type="radio" value="no" name="answer_yes" id="user_no" ><label for "user_no">No</label>
+</li>
+</ul>
+</section>
+
+
+
+<p>Select your preferred gaming system</p>
+<select name="user_system" id="system">
+  <option value>--</option>
+  <option value="PS3">PS3</option>
+  <option value="Xbox">Xbox 360</option>
+  <option value="Wii">Wii</option>
+  <option value="Nintendo DS">Nintendo DS</option>
+  <option value="PC">PC</option>
+  <option value="PS2">PS2</option>
+
+
+
+
+
+
+
+<select>
+
+
+
+
+
+
+<p>What video game genres do you like to play?</p>
+<p id="small">Please select all that apply</p>
+<ul>
+<li><input type="checkbox" name="user_genre1" id="user_genre1" value="action">Action</li>
+<li><input type="checkbox" name="user_genre2" id="user_genre2" value="roll playing">Roll playing</li>
+<li><input type="checkbox" name="user_genre3" id="user_genre3" value="sports">Sports</li>
+<li><input type="checkbox" name="user_genre4" id="user_genre4" value="racing">Racing</li>
+<li><input type="checkbox" name="user_genre5" id="user_genre5" value="strategy">Strategy</li>
+</ul>
+<ul id="list2">
+<li><input type="checkbox" name="user_genre6" id="user_genre6" value="shooter1">First-Person Shooter</li>
+<li><input type="checkbox" name="user_genre7" id="user_genre7" value="shooter2">Third-person Shooter</li>
+<li><input type="checkbox" name="user_genre8" id="user_genre8" value="adventure">Adventure</li>
+<li><input type="checkbox" name="user_genre9" id="user_genre9" value="simulation">Simulation</li>
+<li><input type="checkbox" name="user_genre10" id="user_genre10" value="fighting">Fighting</li>
+</ul>
+
+
+<p>Do you own any classic video game systems?</p>
+<p id="small">Please select all that apply</p>
+
+<section id="left">
+<ul>
+<li><input type="checkbox" name="user_system1" id="user_system1" value="Atari">Atari</li>
+<li><input type="checkbox" name="user_system2" id="user_system2" value="Sega">Sega</li>
+<li><input type="checkbox" name="user_system3" id="user_system3" value="pocket">Game Boy Pocket</li>
+<li><input type="checkbox" name="user_system4" id="user_system4" value="color">Game Boy Color</li>
+<li><input type="checkbox" name="user_system5" id="user_system5" value="Nintendo 64">Nintendo 64</li>
+<li><input type="checkbox" name="user_system6" id="user_system6" value="Nintendo NES">Nintendo NES</li>
+<li><input type="checkbox" name="user_system7" id="user_system7" value="xbox">Original Xbox</li>
+</ul>
+</section>
+<section id="right">
+<ul id="list4">
+<li><input type="checkbox" name="user_system8" id="user_system8" value="DreamCast">DreamCast</li>
+<li><input type="checkbox" name="user_system9" id="user_system9" value="Sega CD">Sega CD</li>
+<li><input type="checkbox" name="user_system10" id="user_system10" value="saturn">Sega Saturn</li>
+<li><input type="checkbox" name="user_system11" id="user_system11" value="Super">Super Nintendo NES</li>
+<li><input type="checkbox" name="user_system12" id="user_system12" value="Game Boy Advance">Game Boy Advance</li>
+<li><input type="checkbox" name="user_system13" id="user_system13" value="Atari">PS1</li>
+<li><input type="checkbox" name="user_system14" id="user_system14" value="Game Cube">Game Cube</li>
+</ul>
+</section>
+
+<p>What gamer websites do you frequently visit</p>
+<p id="small">Please select all that apply</p>
+<ul>
+<li><input type="checkbox" name="user_site1" id="user_site1" value="site1">www.destructoid.com</li>
+<li><input type="checkbox" name="user_site2" id="user_site2" value="site2">www.rockpapershotgun.com</li>
+<li><input type="checkbox" name="user_site3" id="user_site3" value="site3">www.ign.com</li>
+<li><input type="checkbox" name="user_site4" id="user_site4" value="site4">www.giantbomb.com</li>
+<li><input type="checkbox" name="user_site5" id="user_site5" value="site5">www.escapistmagazine.com</li>
+<li><input type="checkbox" name="user_site6" id="user_site6" value="site6">www.kotaku.com</li>
+<li><input type="checkbox" name="user_site7" id="user_site7" value="site7">www.gametrailers.com</li>
+</ul>
+
+<p>Where do you buy your video games?</p>
+<p id="small">Please select all that apply</p>
+<ul>
+<li><input type="checkbox" name="user_store1" id="user_store1" value="store1">Target</li>
+<li><input type="checkbox" name="user_store2" id="user_store2" value="store2">Walmart</li>
+<li><input type="checkbox" name="user_store3" id="user_store3" value="store3">K-Mart</li>
+<li><input type="checkbox" name="user_store4" id="user_store4" value="store4">GameStop</li>
+</ul>
+<ul id="list6">
+<li><input type="checkbox" name="user_store5" id="user_store5" value="store5">Sams Club</li>
+<li><input type="checkbox" name="user_store6" id="user_store6" value="store6">Ebay</li>
+<li><input type="checkbox" name="user_store7" id="user_store7" value="store7">Amazon</li>
+<li><input type="checkbox" name="user_store8" id="user_store8" value="store8">Best Buy</li>
+</ul>
+<p>What gamer magazines are you subscribed to and why?</p>
+<textarea name="user_comments" id="user_comments2"></textarea>
+</select>
+
+
+
+
+
+
+
+<p>
+<label for="question8">Do you prefer a wireless or corded controller?</label>
+</p>
+<ul>
+<li>
+<input type="radio" value="yes" name="answer_yes" id="user_wireless" >
+<label for "user_yes">Wireless</label>
+</li>
+<li>
+<input type="radio" value="no" name="answer_yes" id="user_corded" >
+<label for "user_no">Corded</label>
+</li>
+</ul>
+
+
+
+
+
+
+
+<p><label for="question7">Do you own a computer that you use for mostly gaming?</label></p>
+<ul>
+<li>
+<input type="radio" value="yes" name="answer_yes" id="user_yes" >
+<label for "user_yes">yes</label>
+</li>
+<li>
+<input type="radio" value="no" name="answer_yes" id="user_no" >
+<label for "user_no">No</label>
+</li>
+</ul>
+
+
+
+
+<p><label for="question9">How frequently do you spend playing games online?</label></p>
+<ul>
+<li>
+<input type="radio" value="once" name="answer_once" id="user_once" >
+<label for "user_once">Once a week</label>
+</li>
+<li>
+<input type="radio" value="week" name="answer_once" id="user_week" >
+<label for "user_week">3-5 times a week</label>
+</li>
+<li>
+<input type="radio" value="everyday" name="answer_once" id="user_everyday" >
+<label for "user_everyday">Everyday</label>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p><label for="question10">How much money do you spend on video games a month?</label></p>
+<ul>
+<li>
+<input type="radio" value="100" name="answer_money" id="user_100" >
+<label for "user_100">0-$100</label>
+</li>
+<li>
+<input type="radio" value="200" name="answer_money" id="user_200" >
+<label for "user_200">$100-$200</label>
+</li>
+<li>
+<input type="radio" value="300" name="answer_money" id="user_300" >
+<label for "user_300">$300 or more</label>
+</li>
+</ul>
+
+
+
+<p><label for="question11">When it comes to sports games, which one is your preferred game, if any?</label></p>
+<ul>
+<li><input type="radio" value="Hockey" name="answer_sports" id="user_Hockey"><label for "user_Hockey">Hockey</label>
+
+</li>
+<li><input type="radio" value="Soccer" name="answer_sports" id="user_Soccer"><label for "user_Soccer">Soccer</label>
+
+</li>
+<li><input type="radio" value="Football" name="answer_sports" id="user_Football"><label for "user_Football">Football</label>
+
+</li>
+<li><input type="radio" value="Basketball" name="answer_sports" id="user_Basketball"><label for "user_Basketball">Basketball</label>
+
+</li>
+<li><input type="radio" value="Baseball" name="answer_sports" id="user_Baseball"><label for "user_Baseball">Baseball</label>
+</li>
+</ul>
+<ul id="radio_list">
+<li><input type="radio" value="Nascar" name="answer_sports" id="user_Nascar"><label for "user_Nascar">Nascar</label>
+
+</li>
+<li><input type="radio" value="Golf" name="answer_sports" id="user_Golf"><label for "user_Golf">Golf</label>
+
+</li>
+<li><input type="radio" value="Boxing" name="answer_sports" id="user_Boxing"><label for "user_Boxing">Boxing</label>
+
+</li>
+<li><input type="radio" value="UFC" name="answer_sports" id="user_UFC"><label for "user_UFC">UFC</label>
+
+</li>
+<li><input type="radio" value="dont" name="answer_sports" id="user_dont"><label for "user_dont">I don't prefer sports games</label>
+
+</li>
+</ul>
+
+
+
+
+
+
+
+
+<p><label for="question12">What is your preferred time to play?</label></p>
+<ul>
+<li><input type="radio" value="Morning" name="answer_time" id="user_Morning" ><label for "user_Morning">Morning Hours</label>
+</li>
+
+<li><input type="radio" value="Noon" name="answer_time" id="user_Noon" ><label for "user_Noon">After Noon Hours</label>
+</li>
+
+<li><input type="radio" value="Evening" name="answer_time" id="user_Evening" ><label for "user_Evening">Evening Hours</label>
+</li>
+
+<li><input type="radio" value="Late" name="answer_time" id="user_Late" ><label for "user_Late">Late Night Hours</label>
+</li>
+</ul>
+
+
+
+
+
+<p><label for="question12">What type of "gamer" would you call yourself?</label></p>
+
+<ul>
+<li><input type="radio" value="Hardcore" name="answer_type" id="user_Hardcore" > 
+<label for "user_Hardcore">Hardcore</label><a><img src="img/question.jpg" alt="question" id="style1"></a><div><img src="img/hardcore2.png" alt="hardcore" id="image1"></div>
+
+</li>
+<li>
+<input type="radio" value="Softcore" name="answer_type" id="user_Softcore" >
+<label for "user_Softcore">Softcore</label><a><img src="img/question.jpg" alt="question" id="style2"></a><div><img  src="img/softcore.png" alt="softcore" id="image2"></div>
+</li>
+
+
+<li>
+<input type="radio" value="Causul" name="answer_type" id="user_Causul" ><label for "user_Causul">Causul</label><a><img src="img/question.jpg" alt="question" id="style3"></a><div><img src="img/causul.png" alt="Causel" id="image3"></div>
+</li>
+</ul>
+
+
+
+<p>Would you like to enter for a chance to win a Xbox 360?</p>
+<select name="user_chance" id="user_chance">
+  <option value>--</option>
+  <option value="Yes">Yes</option>
+  <option value="No">No</option>
+<select>
+
+<section id="question3">
+<p><label for="question13">Please enter the following to become eligible to win the xbox.</label></p>
+<p>
+<ul>
+<li><label for="fname">First name:</label>
+<input type="text" name="user_first_name" id="user_first_name1" required>
+</li>
+</p>
+<p>
+<li><label for="lname">Last name:</label>
+<input type="text" name="user_last_name" id="user_first_name1" required>
+</li>
+
+</p>
+<p>
+<li><label for="address">Address:     </label>
+<input type="text" name="address" id="address" required></li>
+</p>
+<p>
+
+<li><label for="country">Country:</label>
+<select name="user_country" id="user_country">
+  <option value="">--</option>
+  <option value="Australia ">Australia </option>
+  <option value="Brazil">Brazil </option>
+  <option value="Canada ">Canada </option>
+  <option value="China ">China </option>
+  <option value="Costa Rica ">Costa Rica </option>
+  <option value="Denmark ">Denmark </option>
+  <option value="Egypt ">Egypt </option>
+  <option value="France ">France </option>
+  <option value="Germany ">Germany </option>
+  <option value="Iraq ">Iraq </option>
+  <option value="Israel ">Israel </option>
+  <option value="Italy ">Italy </option>
+  <option value="Jamaica  ">Jamaica  </option>
+  <option value="Japan  ">Japan  </option>
+  <option value="Kuwait  ">Kuwait  </option>
+  <option value="Lithuania  ">Lithuania  </option>
+  <option value="Madagascar  ">Madagascar  </option>
+  <option value="Mexico  ">Mexico  </option>
+  <option value="Netherlands   ">Netherlands   </option>
+  <option value="New Zealand   ">New Zealand   </option>
+  <option value="Nigeria   ">Nigeria   </option>
+  <option value="Norway   ">Norway   </option>
+  <option value="Panama   ">Panama   </option>
+  <option value="Paraguay   ">Paraguay   </option>
+  <option value="Portugal   ">Portugal   </option>
+  <option value="Russia    ">Russia    </option>
+  <option value="Saudi Arabia    ">Saudi Arabia    </option>
+  <option value="Slovakia    ">Slovakia    </option>
+  <option value="South Africa    ">South Africa    </option>
+  <option value="Spain    ">Spain    </option>
+  <option value="Sweden    ">Sweden    </option>
+  <option value="Switzerland     ">Switzerland     </option>
+  <option value="Turkey     ">Turkey     </option>
+  <option value="Ukraine     ">Ukraine     </option>
+  <option value="United States    ">United States    </option>
+  <option value="Uruguay     ">Uruguay     </option>
+  <option value="Venezuela    ">Venezuela    </option>
+  <option value="Virgin Islands    ">Virgin Islands    </option>
+<select>
+</li>
+<p>
+<li><label for="city">City: </label>
+<input type="text" name="city" id="city" required>
+</p>
+
+</li>
+
+<p><li><label for="state">State:</label>
+<select name="user_state" id="state" >
+  <option value="">--</option>
+  <option value="Alabama">Alabama</option>
+  <option value="Alaska">Alaska</option>
+  <option value="Arizona">Arizona</option>
+  <option value="Arkansas">Arkansas</option>
+  <option value="California">California</option>
+  <option value="Colorado">Colorado</option>
+  <option value="Connecticut">Connecticut</option>
+  <option value="Delaware">Delaware</option>
+  <option value="Florida">Florida</option>
+  <option value="Georgia">Georgia</option>
+  <option value="Hawaii">Hawaii</option>
+  <option value="Idaho">Idaho</option>
+  <option value="Illinois">Illinois</option>
+  <option value="Indiana">Indiana</option>
+  <option value="Iowa">Iowa</option>
+  <option value="Kansas">Kansas</option>
+  <option value="Kentucky">Kentucky</option>
+  <option value="Louisiana">Louisiana</option>
+  <option value="Maine">Maine</option>
+  <option value="Maryland">Maryland</option>
+  <option value="Massachusetts">Massachusetts</option>
+  <option value="Michigan">Michigan</option>
+  <option value="Minnesota">Minnesota</option>
+  <option value="Mississippi">Mississippi</option>
+  <option value="Missouri">Missouri</option>
+  <option value="Montana">Montana</option>
+  <option value="Nebraska">Nebraska</option>
+  <option value="Nevada">Nevada</option>
+  <option value="New Hampshire">New Hampshire</option>
+  <option value="New Jersey">New Jersey</option>
+  <option value="New Mexico">New Mexico</option>
+  <option value="New York">New York</option>
+  <option value="North Carolina">North Carolina</option>
+  <option value="North Dakota">North Dakota</option>
+  <option value="Ohio">Ohio</option>
+  <option value="Oklahoma">Oklahoma</option>
+  <option value="Oregon">Oregon</option>
+  <option value="Pennsylvania">Pennsylvania</option>
+  <option value="Rhode Island">Rhode Island</option>
+  <option value="South Carolina">South Carolina</option>
+  <option value="South Dakota">South Dakota</option>
+  <option value="Tennessee">Tennessee</option>
+  <option value="Texas">Texas</option>
+  <option value="Utah">Utah</option>
+  <option value="Vermont">Vermont</option>
+  <option value="Virginia">Virginia</option>
+  <option value="Washington">Washington</option>
+  <option value="West Virginia">West Virginia</option>
+  <option value="Wisconsin">Wisconsin</option>
+  <option value="Wyoming">Wyoming</option>
+</select>  
+</p>  
+</li>
+<p><li>
+
+<label for="zip code">Zip Code:</label>
+<input type="text" name="zip code" id="user_first_name1" required size="9" maxlength="9">
+</p>
+</li>
+
+<p><li>
+<label for="phone">Telephone number:</label>
+<input type="text" name="phone" id="user_first_name1" required size="3" maxlength="3" required>-
+<input type="text" name="phone" id="user_first_name1" required size="3" maxlength="3" required>-
+<input type="text" name="phone" id="user_first_name1" required size="4" maxlength="4" required>
+</p>
+</li>
+<input type="submit" name="submit" id="submit1">
+</section>
+</ul>
+
+
+
+<section id="question4">
+<ul>
+
+<li><p id="smaller">
+Thank you for completing this survey, please enter your email for a 20% off coupon.</p></li>
+<li>
+&nbsp;<p>
+(Coupon is valid at all retail stores that sell video games.)</p></li>
+<li>
+
+<label for="email">Email:</label>
+<input type="text" name="email" id="user_first_name1" placeholder="example: johndoe@yahoo.com" size="25">
+</li>
+<input type="submit" name="submit" id="submit1">
+</section>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

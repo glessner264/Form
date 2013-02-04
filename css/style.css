@@ -1,0 +1,67 @@
+/* CSS Document */
+
+html{ background-color:#000;}
+
+body{width:550px;margin:0 auto;}
+
+form { background:white;  padding:20px;}
+
+
+input{color:black;  margin-bottom:20px; }
+
+
+/*input[type="submit"]{color:green; background-color:#66FFCC; border:2px outset #390; margin-left:180px; width:80px; float:left;}*/
+
+input[type="reset"]{color:blue; background-color:#66FFCC; border:2px outset #390; margin-left:10px; width:80px;}
+
+input[type="radio"]{ margin-left:10px; width:20px;}
+
+
+
+#question1,#question2{display:none;}
+
+#question3,#question4{display:none;}
+
+h1{color:#FFF; margin-left:80px;}
+
+ul{list-style:none;}
+
+#list2{ margin-left:200px; margin-top:-190px;} /*position:fixed;right:1000px;top:160px;}*/
+
+#list4{ margin-left:200px; margin-top:-270px;}
+
+#list6{ margin-left:200px; margin-top:-160px;}
+
+#radio_list{ margin-left:250px; margin-top:-190px;}
+
+#address{margin-left:10px;}
+
+#user_country{margin-left:10px;}
+
+#city{margin-left:35px;}
+
+#state{margin-left:25px;}
+p{font-weight:bold; font-size:14px;}
+
+#small{font-size:10px; margin-left:45px;}
+
+div {
+    display: none; 
+}
+
+a:hover + div {
+    display: block;
+}
+a{ cursor:pointer; margin-left:40px;}
+
+#image1{margin-left:300px; margin-top:-800px;}
+
+#image2{margin-left:300px; margin-top:-300px;}
+
+#image3{margin-left:300px; margin-top:-300px;}
+
+#style2{margin-left:6px;}
+
+#style3{margin-left:21px;}
+
+#smaller{font-size:10;}
